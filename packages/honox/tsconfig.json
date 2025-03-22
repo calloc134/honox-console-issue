@@ -5,13 +5,9 @@
     "moduleResolution": "bundler",
     "esModuleInterop": true,
     "strict": true,
-    "lib": [
-      "esnext"
-    ],
-    "types": [
-      "vite/client"
-    ],
+    "lib": ["esnext"],
+    "types": ["vite/client"],
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx"
-  },
+  }
 }
