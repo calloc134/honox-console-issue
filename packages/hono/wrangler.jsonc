@@ -1,7 +1,8 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "hono-test-20250321",
-  "main": "src/index.ts",
+  "main": "./dist/index.js",
+  "compatibility_flags": ["nodejs_compat"],
   "compatibility_date": "2025-03-21",
   "observability": {
     "enabled": true,
